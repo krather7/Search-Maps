@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Brew Me</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+      
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+
+      <!-- Bulma -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  
+      <!-- Local stylesheet -->
+      <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Allan:wght@700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+  </head>
+
+  <body>
+
+      <!-- Brew Me header -->
+      <header id="header">
+            <h1>
+              <i class="fas fa-glass-cheers"></i> Brew Me
+            </h1>
+
+          <p class="subtitle">
+            Type your city below to find a brewery near you!
+          </p>
+
+          <!-- Search Bar -->
+          <form class="pure-form search-bar">
+              <fieldset>
+                  <input class="pure-input-1-3" id="input" type="text" placeholder="Search City Name..." />
+                  <button type="submit" class="pure-button"><i class="fas fa-search"></i></button>
+              </fieldset>
+          </form>
+
+      </header>
+
+      <div class="map-container">
+
+        <!-- empty div for map to render -->
+        <div id="map"></div>
+
+      </div>
+  
+
+      <main id="main">
+
+      <!-- Elements to be created in the JavaScript code -->
+
+      <!-- <div class="card">
+          <div class="card-content">
+            <div class="content">
+              <h4>Brewery Name</h4>
+              <p> Brewery Info</p>
+            </div>
+          </div>
+      </div> -->
+
+      <!-- <div id="map"></div> -->
+      
+      </main>
+    <!-- script for google maps API -->
+    <script async defer 
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEY6OFXhgYNZRC43wWwqb6OvRi39YaMK8" 
+    type="text/javascript"></script>
+    <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
+    <script src = "./assets/JavaScript/script.js"></script>
+  </body>
+  
+</html>
