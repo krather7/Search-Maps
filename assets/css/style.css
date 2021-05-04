@@ -1,0 +1,40 @@
+#header{
+    background-image: url(../../assets/images/beer-dark-background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: fit-content;
+    padding: 2rem;
+}
+
+#header h1 {
+    color:white;
+    font-family: 'Allan', cursive;
+    font-size: 5rem;
+}
+
+#header p {
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card {
+    background-color: rgb(241, 232, 232);
+    width:100%;
+    margin: auto;
+    text-align: center;
+}
+
+.map-container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#map {
+    height: 300px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
