@@ -7,7 +7,6 @@
 - [Deployed AP](#deployedap)
 - [Description](#description)
 - [License](#license)
-- [License](#license)
 - [Contributing](#contributing)
 - [Questions](#questions)
 ## Deployed AP
