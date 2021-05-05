@@ -1,6 +1,6 @@
-# Note Taker
+# Find Me Beer!
 
-<h1 align="center">Note Taker</h1>
+<h1 align="center">Find Me Beer!</h1>
   
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 ## Table of Contents
@@ -11,11 +11,9 @@
 - [Contributing](#contributing)
 - [Questions](#questions)
 ## Deployed AP
-- https://afternoon-plateau-43251.herokuapp.com/
+- https://krather7.github.io/Search-Maps/
 ## Description
-- The user can enter text and a title of a note that can be saved on an HTML page
-- Notes can be saved and referenced later
-- Notes can be deleted as needed
+- The user can enter a city name to list local breweries nearby
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
